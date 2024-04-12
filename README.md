@@ -1,0 +1,1 @@
+Applicant Tracking Systems (ATS) and human recruiters alike. In today's competitive job market, your resume needs to navigate through automated systems while still catching the eye of hiring managers. With ATSResumeCreator, you can create professional resumes that are not only visually appealing but also tailored to pass through ATS filters. # ATS_Resume_website

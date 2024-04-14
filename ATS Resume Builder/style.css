@@ -1,0 +1,323 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style: none;
+     box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+/* nav start */
+    nav {
+        height: 80px;
+        width: 100%;
+        background: #34495e;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    label.logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        line-height: 40px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        margin: 0 8px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        border-radius: 3px;
+    }
+    
+    a.active, a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: 0.5s;
+    }
+    
+    nav #icon {
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    @media (max-width: 909px) {
+        nav ul {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+            background: #2f3640;
+            padding: 20px 0;
+        }
+        
+        nav ul.show {
+            display: flex;
+        }
+        
+        nav li {
+            margin: 10px 0;
+        }
+        
+        nav #icon {
+            display: block;
+        }
+    }
+
+/* top nav end */
+
+
+.heading-section {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.paragraph-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.create-resume-btn:hover {
+    background-color: #2980b9;
+}
+
+
+
+.bottom-section {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+}
+
+ .bottom-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bottom-section h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bottom-section .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-section p {
+    color: white;
+    margin-bottom: 20px;
+  
+} 
+
+
+/*card start  */
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 325px;
+  background-color: #fefefe;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.5; /* Added missing value */
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  color: #fff;
+}
+/* card end */
+
+.resume-score {
+margin-top:50px;
+    background-color:rgb(96, 104, 184);
+    text-align: center;
+    height: 300px;
+   
+}
+
+
+
+.resume-score h2 {
+    color:#fff;
+    margin-bottom: 10px; 
+    padding-top: 120px;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+.round-button {
+    border-radius: 50px; /* Make it round */
+    background-color: white; /* White background */
+    color: violet; /* Violet text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.round-button:hover {
+    background-color: violet; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+/* typing text  */
+.container1{
+width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: center;
+}
+.typingtext{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 10%;
+    font-size:20px;
+    letter-spacing: 0.5px;
+    line-height:20px;
+    text-align: center;
+}
+.typingtext h1{
+    font-size: 75px;
+    line-height: 100px;
+}
+.typingtext a {
+    margin-top:60px;
+    display:inline-block;
+    border-radius: 6px;
+    border: 3px solid #464519;
+    color:#2980b9;
+    padding: 15px 30px;
+    text-decoration:none;
+}
+.typingtext #btns:hover{
+    background:#7ec6f7;
+    color:#000;
+    transform: scale(1.02);
+}
+.container1 .img4{
+    margin-top: 3%;
+
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.footer-section {
+    width: 30%;
+    margin-left: 20%;
+}
+
+.footer-section h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #ccc;
+    
+}
+
+
+  
+  
+  

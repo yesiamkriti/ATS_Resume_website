@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="Resume_tempelate.css">
+</head>
+<body>
+    <div>
+        <div>
+            <div class="logo">
+                logo
+            </div>
+            <div class="language">
+                Select Language: 
+                <select id="languageSelect">
+                    <option value="english">English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="french">French</option>
+                    <option value="indonesian">Indonesia</option>
+                    <option value="finnish">Suomi</option>
+                    <option value="danish">Danmark</option>
+                    <option value="dutch">Nederlands</option>
+                    <option value="greek">Ελληνικά</option>
+                    <option value="norwegian">Norsk</option>
+                    <option value="swedish">Svenska</option>
+                    <option value="romanian">Română</option>
+                    <option value="hungarian">Magyar</option>
+                    <option value="german">Deutsch</option>
+                    <!-- Add more options for different languages as needed -->
+                </select>
+            </div>
+        </div>
+        <div>
+            <h1> What's your favorite tempelate? </h1>
+            
+        </div>
+
+    </div>
+    <section class="slider_container">
+        <div class="slider-images">
+            <div class="slider-img">
+                <img src="img1.jpg" alt="img1">
+            </div>
+            <div class="slider-img">
+                <img src="img2.jpg" alt="img2">
+            </div>
+            <div class="slider-img">
+                <img src="img3.jpg" alt="img3">
+            </div>
+            <div class="slider-img active" >
+                <img src="img1.jpg" alt="img1">
+            </div>
+            <div class="slider-img">
+                <img src="img2.jpg" alt="img2">
+            </div>
+            <div class="slider-img">
+                <img src="img3.jpg" alt="img3">
+            </div>
+            <div class="slider-img">
+                <img src="img1.jpg" alt="img1">
+            </div>
+        </div>
+    </section>
+
+</div>
+<script src="jQuery.js"></script>
+<script>
+  jQuery(document).ready(function ($) {
+    $(".slider-img").on("click", function () {
+      $(".slider-img").removeClass("active");
+      $(this).addClass("active");
+    });
+  });
+</script>
+
+</script>
+</body>
+</html>
